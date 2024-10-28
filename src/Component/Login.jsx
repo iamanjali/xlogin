@@ -23,7 +23,7 @@ function Login (){
     <h1>Login Page</h1>
     {/* <p>{loginInfo ? "Welcome, user" : "Invalid username or password"}</p> */}
 
-    {loginInfo !== null && ( // Only display message if loginInfo is not null
+    {loginInfo !== null && (
                 <p>{loginInfo ? "Welcome, user!" : "Invalid username or password"}</p>
             )}
 
